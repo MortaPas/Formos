@@ -1,0 +1,78 @@
+/* selektorius all (*) - nurodyti stiliai taikomi visiems elementams: naudoti saikingai, nes prailgina tinklapio krovimo laiką. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* baziniai dokumento siliai: dekoratyvios detalės,- naudojamas flex išdėstymo modelis */
+span {
+    width: 40%;
+    margin-right: 10%;
+    display: inline-block;
+}
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #5D636C;
+}
+.left-block {
+    width: 10vw;
+    background: #6caee0;
+    height: 100vh;
+}
+.right-block {
+    width: 40vw;
+    background: #6caee0;
+    height: 100vh;
+}
+/* šiuos stilius galite naudoti formos elementų stilizavimui */
+form {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    padding: 5vh 5vw;
+    font-size: 1em;
+}
+fieldset {
+    border: none;
+    width: 100%;
+}
+legend {
+    font-size: 2em;
+    border-bottom: 2px solid #6caee0;
+    width: 100%;
+    text-align: right 
+}
+input {
+}
+textarea {
+    height: 68px;
+    width: 529px;
+    box-shadow:         1px 1px 2px 2px #ccc;
+
+}
+input[type="text"]{
+    width: 48%;
+    margin: 10px 0;
+    box-shadow:         1px 1px 2px 2px #ccc;
+}
+input[type="email"] {
+    width: 48%;
+    margin: 10px 0;
+    box-shadow:         1px 1px 2px 2px #ccc;
+}
+input[type="checkbox"] {
+}
+::placeholder {
+}
+input[type="submit"] {
+    background-color: #6caee0;
+    border: none;
+    height: 50px;
+    width: 90px;
+    margin-left: 58%;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
